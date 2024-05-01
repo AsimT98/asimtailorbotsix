@@ -1,0 +1,4 @@
+source;share/asitlorbotsix_firmware/environment/ament_prefix_path.sh
+source;share/asitlorbotsix_firmware/environment/library_path.sh
+source;share/asitlorbotsix_firmware/environment/path.sh
+source;share/asitlorbotsix_firmware/environment/pythonpath.sh

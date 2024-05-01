@@ -1,0 +1,34 @@
+[0.495s] Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware -- -j8 -l8
+[0.534s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.751s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.768s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.880s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.895s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.916s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.946s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.987s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.150s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.159s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.233s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.261s] -- Looking for pthread.h
+[1.404s] -- Looking for pthread.h - found
+[1.405s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.536s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.537s] -- Found Threads: TRUE  
+[1.782s] -- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+[1.789s] -- Found hardware_interface: 2.40.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[2.685s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.687s] -- Checking for module 'libserial'
+[2.723s] --   Found libserial, version 1.0.0
+[3.022s] [31mCMake Error at /opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:84 (message):
+[3.022s]   Given plugin description file
+[3.022s]   '/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_firmware/asitlorbotsix_interface.xml'
+[3.022s]   does not exist
+[3.022s] Call Stack (most recent call first):
+[3.023s]   CMakeLists.txt:37 (pluginlib_export_plugin_description_file)
+[3.023s] 
+[3.023s] [0m
+[3.023s] -- Configuring incomplete, errors occurred!
+[3.023s] See also "/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware/CMakeFiles/CMakeOutput.log".
+[3.032s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[3.035s] Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware -- -j8 -l8

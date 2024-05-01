@@ -1,0 +1,26 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/local/lib/python3.10/dist-packages",
+        "/home/asimkumar/asitlor_ws/install/asitlorbot_five_localization/local/lib/python3.10/dist-packages",
+        "/home/asimkumar/asitlor_ws/install/asitlorbot_five_controller/local/lib/python3.10/dist-packages",
+        "/home/asimkumar/asitlor_ws/install/asitlorbot_firmware/local/lib/python3.10/dist-packages",
+        "/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/local/lib/python3.10/dist-packages",
+        "/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/local/lib/python3.10/dist-packages",
+        "/home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six",
+        "/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/local/lib/python3.10/dist-packages",
+        "/home/asimkumar/asitlor_ws/install/asitlorbot_five_localization/local/lib/python3.10/dist-packages",
+        "/home/asimkumar/asitlor_ws/install/asitlorbot_five_controller/local/lib/python3.10/dist-packages",
+        "/home/asimkumar/asitlor_ws/install/asitlorbot_firmware/local/lib/python3.10/dist-packages",
+        "/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/local/lib/python3.10/dist-packages",
+        "/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/local/lib/python3.10/dist-packages",
+        "/home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six",
+        "/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

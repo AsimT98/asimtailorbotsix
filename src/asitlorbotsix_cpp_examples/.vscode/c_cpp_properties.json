@@ -1,0 +1,33 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/include/**",
+        "/home/asimkumar/asitlor_ws/install/ros2_control_demo_example_2/include/**",
+        "/home/asimkumar/asitlor_ws/install/asitlorbot_five_localization/include/**",
+        "/home/asimkumar/asitlor_ws/install/asitlorbot_five_controller/include/**",
+        "/home/asimkumar/asitlor_ws/install/asitlorbot_firmware/include/**",
+        "/home/asimkumar/asitlor_ws/install/asitlorbot_cpp_examples/include/**",
+        "/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/include/**",
+        "/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_cpp_examples/include/**",
+        "/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_description/include/**",
+        "/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_firmware/include/**",
+        "/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_localization/include/**",
+        "/home/asimkumar/asitlorbotsix_ws/src/asitlotbotsix_controller/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

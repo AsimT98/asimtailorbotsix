@@ -1,0 +1,4 @@
+source;share/asitlorbotsix_cpp_examples/local_setup.bash
+source;share/asitlorbotsix_cpp_examples/local_setup.dsv
+source;share/asitlorbotsix_cpp_examples/local_setup.sh
+source;share/asitlorbotsix_cpp_examples/local_setup.zsh

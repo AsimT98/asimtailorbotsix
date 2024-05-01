@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating asitlorbot_six.egg-info
+writing asitlorbot_six.egg-info/PKG-INFO
+writing dependency_links to asitlorbot_six.egg-info/dependency_links.txt
+writing entry points to asitlorbot_six.egg-info/entry_points.txt
+writing requirements to asitlorbot_six.egg-info/requires.txt
+writing top-level names to asitlorbot_six.egg-info/top_level.txt
+writing manifest file 'asitlorbot_six.egg-info/SOURCES.txt'
+reading manifest file 'asitlorbot_six.egg-info/SOURCES.txt'
+writing manifest file 'asitlorbot_six.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/lib/python3.10/site-packages/asitlorbot-six.egg-link (link to .)
+
+Installed /home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six
+running symlink_data
+creating /home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/share/ament_index
+creating /home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/share/ament_index/resource_index
+creating /home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/share/ament_index/resource_index/packages
+symbolically linking /home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six/resource/asitlorbot_six -> /home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/share/ament_index/resource_index/packages
+symbolically linking /home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six/package.xml -> /home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/share/asitlorbot_six

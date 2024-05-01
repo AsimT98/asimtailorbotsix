@@ -1,0 +1,9 @@
+source;share/asitlorbot_six/hook/pythonpath.ps1
+source;share/asitlorbot_six/hook/pythonpath.dsv
+source;share/asitlorbot_six/hook/pythonpath.sh
+source;share/asitlorbot_six/hook/ament_prefix_path.ps1
+source;share/asitlorbot_six/hook/ament_prefix_path.dsv
+source;share/asitlorbot_six/hook/ament_prefix_path.sh
+source;../../build/asitlorbot_six/share/asitlorbot_six/hook/pythonpath_develop.ps1
+source;../../build/asitlorbot_six/share/asitlorbot_six/hook/pythonpath_develop.dsv
+source;../../build/asitlorbot_six/share/asitlorbot_six/hook/pythonpath_develop.sh

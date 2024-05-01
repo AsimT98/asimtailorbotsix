@@ -1,0 +1,17 @@
+source;share/asitlorbotsix_firmware/hook/cmake_prefix_path.ps1
+source;share/asitlorbotsix_firmware/hook/cmake_prefix_path.dsv
+source;share/asitlorbotsix_firmware/hook/cmake_prefix_path.sh
+source;share/asitlorbotsix_firmware/hook/ld_library_path_lib.ps1
+source;share/asitlorbotsix_firmware/hook/ld_library_path_lib.dsv
+source;share/asitlorbotsix_firmware/hook/ld_library_path_lib.sh
+source;share/asitlorbotsix_firmware/hook/path.ps1
+source;share/asitlorbotsix_firmware/hook/path.dsv
+source;share/asitlorbotsix_firmware/hook/path.sh
+source;share/asitlorbotsix_firmware/hook/pythonscriptspath.ps1
+source;share/asitlorbotsix_firmware/hook/pythonscriptspath.dsv
+source;share/asitlorbotsix_firmware/hook/pythonscriptspath.sh
+source;share/asitlorbotsix_firmware/local_setup.bash
+source;share/asitlorbotsix_firmware/local_setup.dsv
+source;share/asitlorbotsix_firmware/local_setup.ps1
+source;share/asitlorbotsix_firmware/local_setup.sh
+source;share/asitlorbotsix_firmware/local_setup.zsh

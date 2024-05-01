@@ -1,0 +1,3 @@
+source;share/asitlotbotsix_controller/environment/ament_prefix_path.sh
+source;share/asitlotbotsix_controller/environment/path.sh
+source;share/asitlotbotsix_controller/environment/pythonpath.sh

@@ -1,0 +1,35 @@
+[35m[1mConsolidate compiler generated dependencies of target asitlorbotsix_firmware[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_serial_receiver[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_serial_transmitter[0m
+[ 33%] Built target simple_serial_receiver
+[ 50%] Built target ament_cmake_python_symlink_asitlorbotsix_firmware
+[ 66%] Built target asitlorbotsix_firmware
+[100%] Built target simple_serial_transmitter
+running egg_info
+writing asitlorbotsix_firmware.egg-info/PKG-INFO
+writing dependency_links to asitlorbotsix_firmware.egg-info/dependency_links.txt
+writing top-level names to asitlorbotsix_firmware.egg-info/top_level.txt
+reading manifest file 'asitlorbotsix_firmware.egg-info/SOURCES.txt'
+writing manifest file 'asitlorbotsix_firmware.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_asitlorbotsix_firmware_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/environment/pythonpath.sh
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/local/lib/python3.10/dist-packages/asitlorbotsix_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/local/lib/python3.10/dist-packages/asitlorbotsix_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/local/lib/python3.10/dist-packages/asitlorbotsix_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/local/lib/python3.10/dist-packages/asitlorbotsix_firmware-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/local/lib/python3.10/dist-packages/asitlorbotsix_firmware/__init__.py
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware//asitlorbotsix_interface.xml
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/lib/libasitlorbotsix_firmware.so
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/include/include/asitlorbotsix_firmware/asitlorbotsix_interface.hpp
+-- Symlinking: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/launch/hardware_interface.launch.py
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):
+  ament_cmake_symlink_install_programs() can't find
+  '/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_firmware/asitlorbotsix_firmware/simple_serial_transmitter.py'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:338 (ament_cmake_symlink_install_programs)
+  cmake_install.cmake:46 (include)
+
+[0m

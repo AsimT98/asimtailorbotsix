@@ -1,0 +1,1 @@
+/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware/ament_cmake_environment_hooks/local_setup.zsh

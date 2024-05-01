@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+    <!-- Map Server Node -->
+    <arg name="map_file" default="$(find asitlorbotsix_ws)/maps/my_map_save_1_may.yaml"/>
+    <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)"/>
+
+    <!-- AMCL Node -->
+    <node name="amcl" pkg="amcl" type="amcl" output="screen">
+      <remap from="/laser_controller/out" to="/laser_controller/out_"/>
+
+      <!-- If you choose to define initial pose here -->
+      <param name="initial_pose_x" value="0"/>
+      <param name="initial_pose_y" value="0"/>
+      <param name="initial_pose_a" value="-1.5707"/>
+
+      <!-- Overall Filter -->
+      <param name="min_particles" value="20"/>
+      <param name="max_particles" value="3000"/>
+      <param name="kld_err" value="0.01"/>
+      <param name="kld_z" value="0.99"/>
+
+      <param name="update_min_a" value="0.4"/>
+      <param name="update_min_d" value="0.2"/>
+      <param name="resample_interval" value="1"/>
+
+      <!-- Laser -->
+      <param name="laser_max_beams" value="30"/>
+      <param name="laser_model_type" value="likelihood_field"/>
+      
+      <param name="laser_z_hit" value="0.6"/>
+      <param name="laser_z_rand" value="0.4"/>
+      <param name="laser_sigma_hit" value="0.2"/>
+      <param name="laser_lambda_short" value="0.1"/>
+
+      <!-- Odometry -->
+      <param name="odom_model_type" value="diff-corrected"/>
+      <param name="base_frame_id" value="robot_footprint"/>
+      <param name="global_frame_id" value="map"/>
+      <param name="odom_frame_id" value="odom"/>
+      
+      <param name="transform_tolerance" value="0.1"/>
+      <param name="recovery_alpha_slow" value="0.001"/>
+      <param name="recovery_alpha_fast" value="0.1"/>
+      <param name="odom_alpha1" value="0.005"/>
+      <param name="odom_alpha2" value="0.005"/>
+      <param name="odom_alpha3" value="0.010"/>
+      <param name="odom_alpha4" value="0.005"/>
+        
+    </node>
+
+    <!-- Move Base -->
+    <node name="move_base" pkg="move_base" type="move_base" respawn="false" output="screen">
+        <remap from="scan" to="/laser_controller/out_"/>
+        <param name="base_global_planner" value="navfn/NavfnROS" />
+        <param name="base_local_planner" value="base_local_planner/TrajectoryPlannerROS"/>
+        <rosparam file="$(find my_robot)/config/costmap_common_params.yaml" command="load" ns="global_costmap" />
+        <rosparam file="$(find my_robot)/config/costmap_common_params.yaml" command="load" ns="local_costmap" />
+        <rosparam file="$(find my_robot)/config/local_costmap_params.yaml" command="load" />
+        <rosparam file="$(find my_robot)/config/global_costmap_params.yaml" command="load" />
+        <rosparam file="$(find my_robot)/config/base_local_planner_params.yaml" command="load" />
+    </node>
+
+</launch>

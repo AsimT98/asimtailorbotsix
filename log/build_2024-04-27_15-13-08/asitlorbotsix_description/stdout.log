@@ -1,0 +1,29 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/urdf/asitlorbotsix.urdf.xacro
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/urdf/gazebo_control.xacro
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/urdf/imu.xacro
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/urdf/inertial_macros.xacro
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/urdf/lidar.xacro
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/urdf/robot_core.xacro
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/urdf/ros2_control.xacro
+-- Symlinking: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/urdf/transmission.xacro
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/launch/display.launch.py
+-- Symlinking: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/launch/gazebo.launch.py
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/launch/rsp.launch.py
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/rviz/display.rviz
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/ament_index/resource_index/package_run_dependencies/asitlorbotsix_description
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/ament_index/resource_index/parent_prefix_path/asitlorbotsix_description
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/environment/path.sh
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/environment/path.dsv
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/local_setup.bash
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/local_setup.sh
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/local_setup.zsh
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/local_setup.dsv
+-- Symlinking: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/package.dsv
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/ament_index/resource_index/packages/asitlorbotsix_description
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/cmake/asitlorbotsix_descriptionConfig.cmake
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/cmake/asitlorbotsix_descriptionConfig-version.cmake
+-- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/package.xml

@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+asitlorbot_six/__init__.py
+asitlorbot_six.egg-info/PKG-INFO
+asitlorbot_six.egg-info/SOURCES.txt
+asitlorbot_six.egg-info/dependency_links.txt
+asitlorbot_six.egg-info/entry_points.txt
+asitlorbot_six.egg-info/requires.txt
+asitlorbot_six.egg-info/top_level.txt
+asitlorbot_six.egg-info/zip-safe
+resource/asitlorbot_six

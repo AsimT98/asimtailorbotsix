@@ -1,0 +1,8 @@
+setup.py
+asitlotbotsix_controller/__init__.py
+asitlotbotsix_controller/circular_motion.py
+asitlotbotsix_controller/noisy_controller.py
+asitlotbotsix_controller.egg-info/PKG-INFO
+asitlotbotsix_controller.egg-info/SOURCES.txt
+asitlotbotsix_controller.egg-info/dependency_links.txt
+asitlotbotsix_controller.egg-info/top_level.txt

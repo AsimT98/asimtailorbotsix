@@ -1,0 +1,7 @@
+<library path="asitlorbotsix_firmware">
+    <class name="asitlorbotsix_firmware/asitlorbotInterface" type="asitlorbotsix_firmware::asitlorbotInterface" base_class_type="hardware_interface::SystemInterface">
+      <description>
+        asitlorbot Hardware Interface
+      </description>
+    </class>
+  </library>

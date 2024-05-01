@@ -1,0 +1,1 @@
+/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_firmware/asitlorbotsix_firmware/simple_serial_transmitter.py

@@ -1,0 +1,21 @@
+[0.301s] Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlotbotsix_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlotbotsix_controller -- -j8 -l8
+[0.354s] Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlotbotsix_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlotbotsix_controller -- -j8 -l8
+[0.397s] Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlotbotsix_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --install /home/asimkumar/asitlorbotsix_ws/build/asitlotbotsix_controller
+[0.406s] -- Install configuration: ""
+[0.407s] -- Execute custom install script
+[0.408s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/ament_index/resource_index/package_run_dependencies/asitlotbotsix_controller
+[0.408s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/ament_index/resource_index/parent_prefix_path/asitlotbotsix_controller
+[0.408s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/environment/ament_prefix_path.sh
+[0.408s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/environment/ament_prefix_path.dsv
+[0.408s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/environment/path.sh
+[0.408s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/environment/path.dsv
+[0.409s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/local_setup.bash
+[0.409s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/local_setup.sh
+[0.409s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/local_setup.zsh
+[0.409s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/local_setup.dsv
+[0.409s] -- Symlinking: /home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/package.dsv
+[0.421s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/ament_index/resource_index/packages/asitlotbotsix_controller
+[0.421s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/cmake/asitlotbotsix_controllerConfig.cmake
+[0.421s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/cmake/asitlotbotsix_controllerConfig-version.cmake
+[0.421s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/package.xml
+[0.424s] Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlotbotsix_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --install /home/asimkumar/asitlorbotsix_ws/build/asitlotbotsix_controller

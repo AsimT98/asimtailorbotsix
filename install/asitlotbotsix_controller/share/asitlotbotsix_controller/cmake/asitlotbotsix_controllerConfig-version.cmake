@@ -1,0 +1,1 @@
+/home/asimkumar/asitlorbotsix_ws/build/asitlotbotsix_controller/ament_cmake_core/asitlotbotsix_controllerConfig-version.cmake
