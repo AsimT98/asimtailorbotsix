@@ -234,29 +234,29 @@ src/autonomy_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomy_node.dir/build.make CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.s
 .PHONY : src/autonomy_node.cpp.s
 
-src/navigation_behaviours.o: src/navigation_behaviours.cpp.o
-.PHONY : src/navigation_behaviours.o
+src/navigation_behaviors.o: src/navigation_behaviors.cpp.o
+.PHONY : src/navigation_behaviors.o
 
 # target to build an object file
-src/navigation_behaviours.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomy_node.dir/build.make CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.o
-.PHONY : src/navigation_behaviours.cpp.o
+src/navigation_behaviors.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomy_node.dir/build.make CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.o
+.PHONY : src/navigation_behaviors.cpp.o
 
-src/navigation_behaviours.i: src/navigation_behaviours.cpp.i
-.PHONY : src/navigation_behaviours.i
+src/navigation_behaviors.i: src/navigation_behaviors.cpp.i
+.PHONY : src/navigation_behaviors.i
 
 # target to preprocess a source file
-src/navigation_behaviours.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomy_node.dir/build.make CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.i
-.PHONY : src/navigation_behaviours.cpp.i
+src/navigation_behaviors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomy_node.dir/build.make CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.i
+.PHONY : src/navigation_behaviors.cpp.i
 
-src/navigation_behaviours.s: src/navigation_behaviours.cpp.s
-.PHONY : src/navigation_behaviours.s
+src/navigation_behaviors.s: src/navigation_behaviors.cpp.s
+.PHONY : src/navigation_behaviors.s
 
 # target to generate assembly for a file
-src/navigation_behaviours.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomy_node.dir/build.make CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.s
-.PHONY : src/navigation_behaviours.cpp.s
+src/navigation_behaviors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomy_node.dir/build.make CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.s
+.PHONY : src/navigation_behaviors.cpp.s
 
 # Help Target
 help:
@@ -277,9 +277,9 @@ help:
 	@echo "... src/autonomy_node.o"
 	@echo "... src/autonomy_node.i"
 	@echo "... src/autonomy_node.s"
-	@echo "... src/navigation_behaviours.o"
-	@echo "... src/navigation_behaviours.i"
-	@echo "... src/navigation_behaviours.s"
+	@echo "... src/navigation_behaviors.o"
+	@echo "... src/navigation_behaviors.i"
+	@echo "... src/navigation_behaviors.s"
 .PHONY : help
 
 

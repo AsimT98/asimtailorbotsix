@@ -1,0 +1,23 @@
+[0.513s] Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_cpp_examples -- -j8 -l8
+[0.667s] [100%] Built target simple_lifecycle_node
+[0.727s] Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_cpp_examples -- -j8 -l8
+[0.834s] Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --install /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_cpp_examples
+[0.856s] -- Install configuration: ""
+[0.856s] -- Execute custom install script
+[0.859s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/lib/asitlorbotsix_cpp_examples/simple_lifecycle_node
+[0.860s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/ament_index/resource_index/package_run_dependencies/asitlorbotsix_cpp_examples
+[0.860s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/ament_index/resource_index/parent_prefix_path/asitlorbotsix_cpp_examples
+[0.860s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/environment/ament_prefix_path.sh
+[0.860s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/environment/ament_prefix_path.dsv
+[0.861s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/environment/path.sh
+[0.864s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/environment/path.dsv
+[0.865s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/local_setup.bash
+[0.867s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/local_setup.sh
+[0.867s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/local_setup.zsh
+[0.869s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/local_setup.dsv
+[0.870s] -- Symlinking: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/package.dsv
+[0.915s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/ament_index/resource_index/packages/asitlorbotsix_cpp_examples
+[0.916s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/cmake/asitlorbotsix_cpp_examplesConfig.cmake
+[0.917s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/cmake/asitlorbotsix_cpp_examplesConfig-version.cmake
+[0.918s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/package.xml
+[0.948s] Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --install /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_cpp_examples

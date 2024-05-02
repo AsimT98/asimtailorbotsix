@@ -83,38 +83,38 @@ CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/src/autonomy_node.cpp -o CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.s
 
-CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.o: CMakeFiles/autonomy_node.dir/flags.make
-CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.o: /home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/src/navigation_behaviours.cpp
-CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.o: CMakeFiles/autonomy_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.o -MF CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.o.d -o CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.o -c /home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/src/navigation_behaviours.cpp
+CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.o: CMakeFiles/autonomy_node.dir/flags.make
+CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.o: /home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/src/navigation_behaviors.cpp
+CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.o: CMakeFiles/autonomy_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.o -MF CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.o.d -o CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.o -c /home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/src/navigation_behaviors.cpp
 
-CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/src/navigation_behaviours.cpp > CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.i
+CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/src/navigation_behaviors.cpp > CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.i
 
-CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/src/navigation_behaviours.cpp -o CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.s
+CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/src/navigation_behaviors.cpp -o CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.s
 
 # Object files for target autonomy_node
 autonomy_node_OBJECTS = \
 "CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.o" \
-"CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.o"
+"CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.o"
 
 # External object files for target autonomy_node
 autonomy_node_EXTERNAL_OBJECTS =
 
 autonomy_node: CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.o
-autonomy_node: CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.o
+autonomy_node: CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.o
 autonomy_node: CMakeFiles/autonomy_node.dir/build.make
+autonomy_node: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so
 autonomy_node: /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
 autonomy_node: /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
 autonomy_node: /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
 autonomy_node: /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
 autonomy_node: /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_cpp.so
 autonomy_node: /opt/ros/humble/lib/libnav2_msgs__rosidl_generator_py.so
-autonomy_node: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so
 autonomy_node: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 autonomy_node: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so
 autonomy_node: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so

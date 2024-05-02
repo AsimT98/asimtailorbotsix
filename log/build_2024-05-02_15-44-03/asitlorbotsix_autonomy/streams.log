@@ -1,0 +1,47 @@
+[0.321s] Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy -- -j8 -l8
+[0.359s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.609s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.614s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.650s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.653s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.660s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.673s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.690s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.752s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.754s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.786s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.974s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.083s] -- Found nav2_msgs: 1.1.14 (/opt/ros/humble/share/nav2_msgs/cmake)
+[1.416s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[1.424s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.428s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.429s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.678s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.754s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.755s] -- Configured cppcheck include dirs: /home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/include
+[1.755s] -- Configured cppcheck exclude dirs and/or files: 
+[1.755s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.755s] -- Added test 'lint_cmake' to check CMake code style
+[1.756s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.757s] -- Added test 'uncrustify' to check C / C++ code style
+[1.757s] -- Configured uncrustify additional arguments: 
+[1.758s] -- Added test 'xmllint' to check XML markup files
+[1.759s] -- Configuring done
+[1.773s] -- Generating done
+[1.775s] -- Build files have been written to: /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy
+[1.822s] [ 66%] [32mBuilding CXX object CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.o[0m
+[1.823s] [ 66%] [32mBuilding CXX object CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.o[0m
+[1.834s] [01m[K/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/src/autonomy_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kautonomy_node.h: No such file or directory
+[1.834s]     1 | #include [01;31m[K"autonomy_node.h"[m[K
+[1.834s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.834s] [01m[K/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/src/navigation_behaviors.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Knavigation_behaviors.h: No such file or directory
+[1.834s]     1 | #include [01;31m[K"navigation_behaviors.h"[m[K
+[1.835s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.835s] compilation terminated.
+[1.835s] compilation terminated.
+[1.835s] gmake[2]: *** [CMakeFiles/autonomy_node.dir/build.make:76: CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.o] Error 1
+[1.836s] gmake[2]: *** Waiting for unfinished jobs....
+[1.836s] gmake[2]: *** [CMakeFiles/autonomy_node.dir/build.make:90: CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.o] Error 1
+[1.836s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/autonomy_node.dir/all] Error 2
+[1.836s] gmake: *** [Makefile:146: all] Error 2
+[1.838s] Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy -- -j8 -l8

@@ -1,0 +1,12 @@
+[0.325s] Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware -- -j8 -l8
+[0.449s] [ 33%] Built target asitlorbotsix_firmware
+[0.449s] [ 66%] Built target simple_serial_transmitter
+[0.451s] [100%] Built target simple_serial_receiver
+[0.451s] [100%] Built target ament_cmake_python_symlink_asitlorbotsix_firmware
+[0.879s] running egg_info
+[0.880s] writing asitlorbotsix_firmware.egg-info/PKG-INFO
+[0.880s] writing dependency_links to asitlorbotsix_firmware.egg-info/dependency_links.txt
+[0.880s] writing top-level names to asitlorbotsix_firmware.egg-info/top_level.txt
+[0.884s] reading manifest file 'asitlorbotsix_firmware.egg-info/SOURCES.txt'
+[0.885s] writing manifest file 'asitlorbotsix_firmware.egg-info/SOURCES.txt'
+[0.941s] [100%] Built target ament_cmake_python_build_asitlorbotsix_firmware_egg

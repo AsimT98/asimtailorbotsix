@@ -1,0 +1,13 @@
+[01m[K/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/src/navigation_behaviours.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Knavigation_behaviours.h: No such file or directory
+    1 | #include [01;31m[K"navigation_behaviours.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/src/autonomy_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kautonomy_node.h: No such file or directory
+    1 | #include [01;31m[K"autonomy_node.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/autonomy_node.dir/build.make:90: CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/autonomy_node.dir/build.make:76: CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/autonomy_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

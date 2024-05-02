@@ -1,0 +1,9 @@
+[0.504s] Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_localization -- -j8 -l8
+[0.689s] Built target ament_cmake_python_symlink_asitlorbotsix_localization
+[1.148s] running egg_info
+[1.149s] writing asitlorbotsix_localization.egg-info/PKG-INFO
+[1.149s] writing dependency_links to asitlorbotsix_localization.egg-info/dependency_links.txt
+[1.150s] writing top-level names to asitlorbotsix_localization.egg-info/top_level.txt
+[1.154s] reading manifest file 'asitlorbotsix_localization.egg-info/SOURCES.txt'
+[1.155s] writing manifest file 'asitlorbotsix_localization.egg-info/SOURCES.txt'
+[1.250s] Built target ament_cmake_python_build_asitlorbotsix_localization_egg

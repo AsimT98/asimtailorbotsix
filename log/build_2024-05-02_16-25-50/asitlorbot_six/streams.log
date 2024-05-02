@@ -1,0 +1,16 @@
+[1.632s] Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six': PYTHONPATH=/home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six/prefix_override:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six/build --no-deps symlink_data
+[2.119s] running develop
+[2.372s] running egg_info
+[2.372s] writing asitlorbot_six.egg-info/PKG-INFO
+[2.372s] writing dependency_links to asitlorbot_six.egg-info/dependency_links.txt
+[2.372s] writing entry points to asitlorbot_six.egg-info/entry_points.txt
+[2.372s] writing requirements to asitlorbot_six.egg-info/requires.txt
+[2.373s] writing top-level names to asitlorbot_six.egg-info/top_level.txt
+[2.376s] reading manifest file 'asitlorbot_six.egg-info/SOURCES.txt'
+[2.377s] writing manifest file 'asitlorbot_six.egg-info/SOURCES.txt'
+[2.447s] running build_ext
+[2.447s] Creating /home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/lib/python3.10/site-packages/asitlorbot-six.egg-link (link to .)
+[2.448s] 
+[2.449s] Installed /home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six
+[2.449s] running symlink_data
+[2.508s] Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six' returned '0': PYTHONPATH=/home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six/prefix_override:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six/build --no-deps symlink_data

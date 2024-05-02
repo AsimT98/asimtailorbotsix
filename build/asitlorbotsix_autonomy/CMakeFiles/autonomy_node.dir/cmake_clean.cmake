@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.o"
   "CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.o.d"
-  "CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.o"
-  "CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.o.d"
+  "CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.o"
+  "CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.o.d"
   "autonomy_node"
   "autonomy_node.pdb"
 )

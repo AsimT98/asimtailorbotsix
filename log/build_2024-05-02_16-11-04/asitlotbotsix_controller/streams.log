@@ -1,0 +1,9 @@
+[0.508s] Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlotbotsix_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlotbotsix_controller -- -j8 -l8
+[0.719s] Built target ament_cmake_python_symlink_asitlotbotsix_controller
+[1.246s] running egg_info
+[1.249s] writing asitlotbotsix_controller.egg-info/PKG-INFO
+[1.250s] writing dependency_links to asitlotbotsix_controller.egg-info/dependency_links.txt
+[1.250s] writing top-level names to asitlotbotsix_controller.egg-info/top_level.txt
+[1.251s] reading manifest file 'asitlotbotsix_controller.egg-info/SOURCES.txt'
+[1.253s] writing manifest file 'asitlotbotsix_controller.egg-info/SOURCES.txt'
+[1.321s] Built target ament_cmake_python_build_asitlotbotsix_controller_egg

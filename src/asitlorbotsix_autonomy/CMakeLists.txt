@@ -16,31 +16,27 @@ find_package(tf2 REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)
 
 install(DIRECTORY
-  bt_xml launch config
+  bt_xml launch
   DESTINATION share/${PROJECT_NAME}
 )
 
-set(
-  BEHAVIOR_SOURCES
-  src/navigation_behaviours.cpp
+# Install C++ behaviors
+set(BEHAVIOR_SOURCES
+src/navigation_behaviors.cpp 
 )
-# add_library(${PROJECT_NAME} SHARED 
-#   src/navigation_behaviors.cpp
-# )
+
 set(TARGET_DEPENDS
     rclcpp
-    rclcpp_action
-    nav2_msgs
     behaviortree_cpp_v3
     yaml-cpp
+    rclcpp_action
+    nav2_msgs
     tf2
     tf2_geometry_msgs
-
 )
 
 include_directories(include)
 add_executable(autonomy_node src/autonomy_node.cpp ${BEHAVIOR_SOURCES})
-
 ament_target_dependencies(autonomy_node ${TARGET_DEPENDS})
 target_link_libraries(autonomy_node ${YAML_CPP_LIBRARIES})
 

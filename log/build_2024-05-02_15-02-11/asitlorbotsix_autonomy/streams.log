@@ -1,0 +1,17 @@
+[0.335s] Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy -- -j8 -l8
+[0.463s] [ 66%] [32mBuilding CXX object CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.o[0m
+[0.466s] [ 66%] [32mBuilding CXX object CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.o[0m
+[0.493s] [01m[K/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/src/autonomy_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kautonomy_node.h: No such file or directory
+[0.493s]     1 | #include [01;31m[K"autonomy_node.h"[m[K
+[0.493s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.493s] compilation terminated.
+[0.493s] gmake[2]: *** [CMakeFiles/autonomy_node.dir/build.make:76: CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.o] Error 1
+[0.493s] gmake[2]: *** Waiting for unfinished jobs....
+[0.497s] [01m[K/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/src/navigation_behaviours.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Knavigation_behaviors.h: No such file or directory
+[0.497s]     1 | #include [01;31m[K"navigation_behaviors.h"[m[K
+[0.497s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.498s] compilation terminated.
+[0.499s] gmake[2]: *** [CMakeFiles/autonomy_node.dir/build.make:90: CMakeFiles/autonomy_node.dir/src/navigation_behaviours.cpp.o] Error 1
+[0.500s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/autonomy_node.dir/all] Error 2
+[0.502s] gmake: *** [Makefile:146: all] Error 2
+[0.510s] Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy -- -j8 -l8

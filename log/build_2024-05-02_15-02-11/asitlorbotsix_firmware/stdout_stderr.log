@@ -1,0 +1,11 @@
+[ 33%] Built target simple_serial_transmitter
+[ 66%] Built target asitlorbotsix_firmware
+[ 66%] Built target ament_cmake_python_symlink_asitlorbotsix_firmware
+[100%] Built target simple_serial_receiver
+running egg_info
+writing asitlorbotsix_firmware.egg-info/PKG-INFO
+writing dependency_links to asitlorbotsix_firmware.egg-info/dependency_links.txt
+writing top-level names to asitlorbotsix_firmware.egg-info/top_level.txt
+reading manifest file 'asitlorbotsix_firmware.egg-info/SOURCES.txt'
+writing manifest file 'asitlorbotsix_firmware.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_asitlorbotsix_firmware_egg

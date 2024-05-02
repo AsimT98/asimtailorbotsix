@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "bt_xml" "launch" "config" "DESTINATION" "share/asitlorbotsix_autonomy")
-ament_cmake_symlink_install_directory("/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy" DIRECTORY "bt_xml" "launch" "config" "DESTINATION" "share/asitlorbotsix_autonomy")
+# install(DIRECTORY "bt_xml" "launch" "DESTINATION" "share/asitlorbotsix_autonomy")
+ament_cmake_symlink_install_directory("/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy" DIRECTORY "bt_xml" "launch" "DESTINATION" "share/asitlorbotsix_autonomy")
 
 # install("TARGETS" "autonomy_node" "DESTINATION" "lib/asitlorbotsix_autonomy")
 include("/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
