@@ -1,0 +1,46 @@
+[0.491s] Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy -- -j8 -l8
+[0.554s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.891s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.924s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.010s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.022s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.042s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.081s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.124s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.230s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.234s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.290s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.625s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.938s] -- Found nav2_msgs: 1.1.14 (/opt/ros/humble/share/nav2_msgs/cmake)
+[2.471s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[2.510s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.560s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.563s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.563s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.003s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.114s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.114s] -- Configured cppcheck include dirs: /home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/include
+[3.114s] -- Configured cppcheck exclude dirs and/or files: 
+[3.116s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.118s] -- Added test 'lint_cmake' to check CMake code style
+[3.119s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.123s] -- Added test 'uncrustify' to check C / C++ code style
+[3.123s] -- Configured uncrustify additional arguments: 
+[3.125s] -- Added test 'xmllint' to check XML markup files
+[3.126s] -- Configuring done
+[3.133s] [31mCMake Error at CMakeLists.txt:40 (add_executable):
+[3.133s]   Cannot find source file:
+[3.133s] 
+[3.133s]     src/navigation_behaviors.cpp
+[3.133s] 
+[3.134s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[3.134s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[3.134s] 
+[3.134s] [0m
+[3.136s] [31mCMake Error at CMakeLists.txt:40 (add_executable):
+[3.136s]   No SOURCES given to target: autonomy_node
+[3.136s] 
+[3.137s] [0m
+[3.137s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[3.148s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[3.152s] Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy -- -j8 -l8

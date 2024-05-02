@@ -1,0 +1,79 @@
+[0.324s] Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_localization -- -j8 -l8
+[0.364s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.604s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.624s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.670s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.673s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.681s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.696s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.718s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.800s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.804s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.853s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.066s] -- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+[1.066s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.194s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.285s] -- Found nav2_bringup: 1.1.14 (/opt/ros/humble/share/nav2_bringup/cmake)
+[1.356s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.457s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.457s] -- Added test 'lint_cmake' to check CMake code style
+[1.458s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.461s] -- Added test 'xmllint' to check XML markup files
+[1.462s] -- Configuring done
+[1.471s] -- Generating done
+[1.473s] -- Build files have been written to: /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_localization
+[1.532s] Built target ament_cmake_python_symlink_asitlorbotsix_localization
+[1.795s] running egg_info
+[1.796s] writing asitlorbotsix_localization.egg-info/PKG-INFO
+[1.796s] writing dependency_links to asitlorbotsix_localization.egg-info/dependency_links.txt
+[1.796s] writing top-level names to asitlorbotsix_localization.egg-info/top_level.txt
+[1.799s] reading manifest file 'asitlorbotsix_localization.egg-info/SOURCES.txt'
+[1.800s] writing manifest file 'asitlorbotsix_localization.egg-info/SOURCES.txt'
+[1.835s] Built target ament_cmake_python_build_asitlorbotsix_localization_egg
+[1.850s] Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_localization -- -j8 -l8
+[1.888s] Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --install /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_localization
+[1.897s] -- Install configuration: ""
+[1.897s] -- Execute custom install script
+[1.897s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/environment/pythonpath.sh
+[1.898s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/environment/pythonpath.dsv
+[1.898s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/local/lib/python3.10/dist-packages/asitlorbotsix_localization-0.0.0-py3.10.egg-info/PKG-INFO
+[1.898s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/local/lib/python3.10/dist-packages/asitlorbotsix_localization-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.898s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/local/lib/python3.10/dist-packages/asitlorbotsix_localization-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.898s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/local/lib/python3.10/dist-packages/asitlorbotsix_localization-0.0.0-py3.10.egg-info/top_level.txt
+[1.898s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/local/lib/python3.10/dist-packages/asitlorbotsix_localization/__init__.py
+[1.899s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/local/lib/python3.10/dist-packages/asitlorbotsix_localization/bayesian_optimization.py
+[1.899s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/local/lib/python3.10/dist-packages/asitlorbotsix_localization/imu_republisher.py
+[1.899s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/local/lib/python3.10/dist-packages/asitlorbotsix_localization/rmse.py
+[1.899s] -- Symlinking: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/local/lib/python3.10/dist-packages/asitlorbotsix_localization/set_init_amcl_pose.py
+[1.912s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/local/lib/python3.10/dist-packages/asitlorbotsix_localization/test.py
+[1.913s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/launch/amcl.launch
+[1.913s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/launch/local_localization.launch.py
+[1.913s] -- Symlinking: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/launch/nav2.launch.py
+[1.925s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/config/ekf.yaml
+[1.925s] -- Symlinking: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/maps/my_map_save_1_may.pgm
+[1.937s] -- Symlinking: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/maps/my_map_save_1_may.yaml
+[1.950s] -- Symlinking: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/maps/my_map_serial_1_may.data
+[1.963s] -- Symlinking: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/maps/my_map_serial_1_may.posegraph
+[1.974s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/lib/asitlorbotsix_localization/imu_republisher.py
+[1.974s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/lib/asitlorbotsix_localization/rmse.py
+[1.975s] -- Symlinking: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/lib/asitlorbotsix_localization/set_init_amcl_pose.py
+[1.986s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/ament_index/resource_index/package_run_dependencies/asitlorbotsix_localization
+[1.986s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/ament_index/resource_index/parent_prefix_path/asitlorbotsix_localization
+[1.986s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/environment/ament_prefix_path.sh
+[1.987s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/environment/ament_prefix_path.dsv
+[1.987s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/environment/path.sh
+[1.987s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/environment/path.dsv
+[1.987s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/local_setup.bash
+[1.987s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/local_setup.sh
+[1.987s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/local_setup.zsh
+[1.987s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/local_setup.dsv
+[1.987s] -- Symlinking: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/package.dsv
+[1.999s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/ament_index/resource_index/packages/asitlorbotsix_localization
+[1.999s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/cmake/asitlorbotsix_localizationConfig.cmake
+[1.999s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/cmake/asitlorbotsix_localizationConfig-version.cmake
+[2.000s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/package.xml
+[2.036s] Listing '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/local/lib/python3.10/dist-packages/asitlorbotsix_localization'...
+[2.036s] Compiling '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/local/lib/python3.10/dist-packages/asitlorbotsix_localization/rmse.py'...
+[2.036s] Compiling '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/local/lib/python3.10/dist-packages/asitlorbotsix_localization/set_init_amcl_pose.py'...
+[2.036s] Compiling '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/local/lib/python3.10/dist-packages/asitlorbotsix_localization/test.py'...
+[2.046s] Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --install /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_localization

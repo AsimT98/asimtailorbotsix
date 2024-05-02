@@ -1,0 +1,56 @@
+[0.486s] Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware -- -j8 -l8
+[0.649s] [ 33%] Built target simple_serial_receiver
+[0.667s] [ 33%] Built target ament_cmake_python_symlink_asitlorbotsix_firmware
+[0.682s] [ 66%] Built target simple_serial_transmitter
+[0.696s] [100%] Built target asitlorbotsix_firmware
+[1.302s] running egg_info
+[1.302s] writing asitlorbotsix_firmware.egg-info/PKG-INFO
+[1.303s] writing dependency_links to asitlorbotsix_firmware.egg-info/dependency_links.txt
+[1.303s] writing top-level names to asitlorbotsix_firmware.egg-info/top_level.txt
+[1.308s] reading manifest file 'asitlorbotsix_firmware.egg-info/SOURCES.txt'
+[1.310s] writing manifest file 'asitlorbotsix_firmware.egg-info/SOURCES.txt'
+[1.373s] [100%] Built target ament_cmake_python_build_asitlorbotsix_firmware_egg
+[1.404s] Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware -- -j8 -l8
+[1.495s] Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --install /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware
+[1.515s] -- Install configuration: ""
+[1.516s] -- Execute custom install script
+[1.519s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/environment/pythonpath.sh
+[1.519s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/environment/pythonpath.dsv
+[1.523s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/local/lib/python3.10/dist-packages/asitlorbotsix_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[1.524s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/local/lib/python3.10/dist-packages/asitlorbotsix_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.524s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/local/lib/python3.10/dist-packages/asitlorbotsix_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.530s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/local/lib/python3.10/dist-packages/asitlorbotsix_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[1.533s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/local/lib/python3.10/dist-packages/asitlorbotsix_firmware/__init__.py
+[1.536s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/local/lib/python3.10/dist-packages/asitlorbotsix_firmware/simple_serial_receiver.py
+[1.538s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/local/lib/python3.10/dist-packages/asitlorbotsix_firmware/simple_serial_transmitter.py
+[1.540s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware//asitlorbotsix_interface.xml
+[1.553s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/lib/libasitlorbotsix_firmware.so
+[1.554s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/include/include/asitlorbotsix_firmware/asitlorbotsix_interface.hpp
+[1.554s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/launch/hardware_interface.launch.py
+[1.556s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/lib/asitlorbotsix_firmware/simple_serial_transmitter.py
+[1.556s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/lib/asitlorbotsix_firmware/simple_serial_receiver.py
+[1.558s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/bin/simple_serial_receiver
+[1.559s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/bin/simple_serial_transmitter
+[1.561s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/environment/library_path.sh
+[1.561s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/environment/library_path.dsv
+[1.562s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/ament_index/resource_index/package_run_dependencies/asitlorbotsix_firmware
+[1.562s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/ament_index/resource_index/parent_prefix_path/asitlorbotsix_firmware
+[1.564s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/environment/ament_prefix_path.sh
+[1.565s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/environment/ament_prefix_path.dsv
+[1.566s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/environment/path.sh
+[1.567s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/environment/path.dsv
+[1.567s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/local_setup.bash
+[1.568s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/local_setup.sh
+[1.569s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/local_setup.zsh
+[1.569s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/local_setup.dsv
+[1.570s] -- Symlinking: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/package.dsv
+[1.570s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/ament_index/resource_index/packages/asitlorbotsix_firmware
+[1.571s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/asitlorbotsix_firmware
+[1.571s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.572s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[1.573s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.573s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/cmake/asitlorbotsix_firmwareConfig.cmake
+[1.574s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/cmake/asitlorbotsix_firmwareConfig-version.cmake
+[1.574s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/package.xml
+[1.653s] Listing '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/local/lib/python3.10/dist-packages/asitlorbotsix_firmware'...
+[1.708s] Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --install /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware

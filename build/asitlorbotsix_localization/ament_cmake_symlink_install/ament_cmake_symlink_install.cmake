@@ -325,11 +325,11 @@ ament_cmake_symlink_install_directory("/home/asimkumar/asitlorbotsix_ws/src/asit
 # install(DIRECTORY "include" "DESTINATION" "include")
 ament_cmake_symlink_install_directory("/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_localization" DIRECTORY "include" "DESTINATION" "include")
 
-# install(DIRECTORY "launch" "config" "DESTINATION" "share/asitlorbotsix_localization")
-ament_cmake_symlink_install_directory("/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_localization" DIRECTORY "launch" "config" "DESTINATION" "share/asitlorbotsix_localization")
+# install(DIRECTORY "launch" "config" "maps" "DESTINATION" "share/asitlorbotsix_localization")
+ament_cmake_symlink_install_directory("/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_localization" DIRECTORY "launch" "config" "maps" "DESTINATION" "share/asitlorbotsix_localization")
 
-# install(PROGRAMS "asitlorbotsix_localization/imu_republisher.py" "asitlorbotsix_localization/rmse.py" "DESTINATION" "lib/asitlorbotsix_localization")
-ament_cmake_symlink_install_programs("/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_localization" PROGRAMS "asitlorbotsix_localization/imu_republisher.py" "asitlorbotsix_localization/rmse.py" "DESTINATION" "lib/asitlorbotsix_localization")
+# install(PROGRAMS "asitlorbotsix_localization/imu_republisher.py" "asitlorbotsix_localization/rmse.py" "asitlorbotsix_localization/set_init_amcl_pose.py" "DESTINATION" "lib/asitlorbotsix_localization")
+ament_cmake_symlink_install_programs("/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_localization" PROGRAMS "asitlorbotsix_localization/imu_republisher.py" "asitlorbotsix_localization/rmse.py" "asitlorbotsix_localization/set_init_amcl_pose.py" "DESTINATION" "lib/asitlorbotsix_localization")
 
 # install(FILES "/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_localization/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/asitlorbotsix_localization" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_localization" FILES "/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_localization/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/asitlorbotsix_localization" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

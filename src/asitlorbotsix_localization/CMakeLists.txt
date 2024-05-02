@@ -12,6 +12,7 @@ find_package(rclcpp REQUIRED)
 find_package(rclpy REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(nav2_bringup REQUIRED)
 
 include_directories(include)
 ament_python_install_package(${PROJECT_NAME})
@@ -25,7 +26,7 @@ install(
 )
 
 install(
-  DIRECTORY launch config
+  DIRECTORY launch config maps
   DESTINATION share/${PROJECT_NAME}
 )
 
@@ -46,8 +47,8 @@ install(PROGRAMS
   
   ${PROJECT_NAME}/imu_republisher.py
   ${PROJECT_NAME}/rmse.py
-  
-  
+  ${PROJECT_NAME}/set_init_amcl_pose.py
+
   
   # ${PROJECT_NAME}/bayesian_optimization.py
   DESTINATION lib/${PROJECT_NAME}

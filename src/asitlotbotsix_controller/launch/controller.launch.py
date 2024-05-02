@@ -61,7 +61,6 @@ def generate_launch_description():
             "/controller_manager",
         ],
     )
-
     wheel_controller_spawner = Node(
         package="controller_manager",
         executable="spawner",
@@ -71,7 +70,6 @@ def generate_launch_description():
         ],
         condition=UnlessCondition(use_simple_controller),
     )
-
     simple_controller = GroupAction(
         condition=IfCondition(use_simple_controller),
         actions=[
@@ -93,14 +91,12 @@ def generate_launch_description():
             ),
         ]
     )
-
     noisy_controller_launch = OpaqueFunction(function=noisy_controller)
 
     my_custom_node = Node(
         package="asitlorbot_five_controller",
         executable="circular_motion.py"
     )
-    
     return LaunchDescription(
         [
             use_simple_controller_arg,
@@ -113,7 +109,7 @@ def generate_launch_description():
             joint_state_broadcaster_spawner,
             simple_controller,
             noisy_controller_launch,
-            my_custom_node
+            # my_custom_node
                 
         ]
         

@@ -81,7 +81,9 @@ class Subscriber(Node):
     def gt_odom_callback(self, msg: Odometry):
         self.get_logger().info('Received ground truth Odometry message: {}'.format(msg))
         self.gt_odom_data = msg
-
+        self.get_logger().info('Linear Velocity X: {}'.format(msg.twist.twist.linear.x))
+        self.get_logger().info('Linear Velocity Y: {}'.format(msg.twist.twist.linear.y))
+        self.get_logger().info('Angular Velocity Z: {}'.format(msg.twist.twist.angular.z))
         if self.prev_timestamp is not None:
             delta_t = (msg.header.stamp.sec - self.prev_timestamp.sec) + \
                       (msg.header.stamp.nanosec - self.prev_timestamp.nanosec) / 1e9
@@ -98,7 +100,9 @@ class Subscriber(Node):
     def est_odom_callback(self, msg: Odometry):
         self.get_logger().info('Received estimated Odometry message: {}'.format(msg))
         self.est_odom_data = msg
-
+        self.get_logger().info('Linear Velocity X: {}'.format(msg.twist.twist.linear.x))
+        self.get_logger().info('Linear Velocity Y: {}'.format(msg.twist.twist.linear.y))
+        self.get_logger().info('Angular Velocity Z: {}'.format(msg.twist.twist.angular.z))
         if self.prev_timestamp is not None:
             delta_t = (msg.header.stamp.sec - self.prev_timestamp.sec) + \
                       (msg.header.stamp.nanosec - self.prev_timestamp.nanosec) / 1e9
@@ -124,8 +128,7 @@ class Subscriber(Node):
         velocity_x = 0.0
         velocity_y = 0.0
         angular_velocity_z = 0.0
-        acceleration_x=0.0
-
+        
         if odom_data is not None:
             linear_velocity = odom_data.twist.twist.linear
             angular_velocity = odom_data.twist.twist.angular

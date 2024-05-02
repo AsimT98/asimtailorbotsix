@@ -3,6 +3,7 @@ asitlorbotsix_localization/__init__.py
 asitlorbotsix_localization/bayesian_optimization.py
 asitlorbotsix_localization/imu_republisher.py
 asitlorbotsix_localization/rmse.py
+asitlorbotsix_localization/set_init_amcl_pose.py
 asitlorbotsix_localization/test.py
 asitlorbotsix_localization.egg-info/PKG-INFO
 asitlorbotsix_localization.egg-info/SOURCES.txt

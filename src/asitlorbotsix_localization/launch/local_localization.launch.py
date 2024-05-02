@@ -6,6 +6,7 @@ from launch.substitutions import LaunchConfiguration
 import os
 
 def generate_launch_description():
+    
     static_transform_publisher = Node(
         package="tf2_ros",
         executable="static_transform_publisher",
@@ -29,6 +30,7 @@ def generate_launch_description():
         package="asitlorbotsix_localization",
         executable="rmse.py"
     )
+
     return LaunchDescription([
         static_transform_publisher,
         robot_localization,

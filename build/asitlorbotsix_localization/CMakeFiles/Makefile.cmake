@@ -271,6 +271,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/humble/share/libyaml_vendor/cmake/libyaml_vendor-extras.cmake"
   "/opt/ros/humble/share/libyaml_vendor/cmake/libyaml_vendorConfig-version.cmake"
   "/opt/ros/humble/share/libyaml_vendor/cmake/libyaml_vendorConfig.cmake"
+  "/opt/ros/humble/share/nav2_bringup/cmake/nav2_bringupConfig-version.cmake"
+  "/opt/ros/humble/share/nav2_bringup/cmake/nav2_bringupConfig.cmake"
   "/opt/ros/humble/share/nav_msgs/cmake/ament_cmake_export_dependencies-extras.cmake"
   "/opt/ros/humble/share/nav_msgs/cmake/ament_cmake_export_include_directories-extras.cmake"
   "/opt/ros/humble/share/nav_msgs/cmake/ament_cmake_export_libraries-extras.cmake"

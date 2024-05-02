@@ -1,0 +1,1 @@
+/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_localization/asitlorbotsix_localization/set_init_amcl_pose.py

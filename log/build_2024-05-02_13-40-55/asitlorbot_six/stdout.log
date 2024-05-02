@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing asitlorbot_six.egg-info/PKG-INFO
+writing dependency_links to asitlorbot_six.egg-info/dependency_links.txt
+writing entry points to asitlorbot_six.egg-info/entry_points.txt
+writing requirements to asitlorbot_six.egg-info/requires.txt
+writing top-level names to asitlorbot_six.egg-info/top_level.txt
+reading manifest file 'asitlorbot_six.egg-info/SOURCES.txt'
+writing manifest file 'asitlorbot_six.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/lib/python3.10/site-packages/asitlorbot-six.egg-link (link to .)
+
+Installed /home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six
+running symlink_data

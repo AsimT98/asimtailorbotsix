@@ -1,0 +1,15 @@
+/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/ament_index/resource_index/package_run_dependencies/asitlorbotsix_autonomy
+/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/ament_index/resource_index/parent_prefix_path/asitlorbotsix_autonomy
+/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/environment/ament_prefix_path.sh
+/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/environment/ament_prefix_path.dsv
+/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/environment/path.sh
+/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/environment/path.dsv
+/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/local_setup.bash
+/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/local_setup.sh
+/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/local_setup.zsh
+/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/local_setup.dsv
+/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/package.dsv
+/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/ament_index/resource_index/packages/asitlorbotsix_autonomy
+/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/cmake/asitlorbotsix_autonomyConfig.cmake
+/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/cmake/asitlorbotsix_autonomyConfig-version.cmake
+/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/package.xml
