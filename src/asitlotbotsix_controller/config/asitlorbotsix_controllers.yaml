@@ -1,12 +1,12 @@
 controller_manager:
   ros__parameters:
-    update_rate: 100
+    update_rate: 30.0
     use_sim_time: true
 
     # RESPONSIBLE FOR PUBLISHING THE CURRENT STATE OF EACH JOINT INTO A TOPIC
     joint_broad:
       type: joint_state_broadcaster/JointStateBroadcaster
-      
+
     velocity_controller:
       type: velocity_controllers/JointGroupVelocityController
       

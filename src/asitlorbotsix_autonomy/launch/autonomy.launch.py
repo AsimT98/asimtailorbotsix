@@ -1,5 +1,4 @@
 import os
-
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
 from launch_ros.actions import Node
@@ -13,7 +12,7 @@ def generate_launch_description():
       executable="autonomy_node",
       name="autonomy_node",
       parameters=[{
-          "location_file": os.path.join(pkg_tb3_sim, "config", "sim_house_locations.yaml")
+          "location_file": "/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/config/sim_house_locations.yaml"
       }]
   )
 

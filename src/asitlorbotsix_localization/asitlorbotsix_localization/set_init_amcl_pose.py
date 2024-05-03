@@ -1,12 +1,9 @@
 #!/usr/bin/env python3
-
-
 import time
 import rclpy
 from rclpy.node import Node
 import transforms3d
 from geometry_msgs.msg import PoseWithCovarianceStamped
-
 
 class InitAmclPosePublisher(Node):
   def __init__(self):
@@ -53,7 +50,6 @@ class InitAmclPosePublisher(Node):
     ]
 
     self.publisher.publish(msg)
-
 
 def main(args=None):
   rclpy.init()

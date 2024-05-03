@@ -1,3 +1,6 @@
+/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/bt_xml/tree.xml
+/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/launch/autonomy.launch.py
+/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/lib/asitlorbotsix_autonomy/autonomy_node
 /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/ament_index/resource_index/package_run_dependencies/asitlorbotsix_autonomy
 /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/ament_index/resource_index/parent_prefix_path/asitlorbotsix_autonomy
 /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/environment/ament_prefix_path.sh

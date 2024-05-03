@@ -1,0 +1,61 @@
+[0.504s] Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy -- -j8 -l8
+[0.630s] [ 33%] [32mBuilding CXX object CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.o[0m
+[0.637s] [ 66%] [32mBuilding CXX object CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.o[0m
+[1.346s] In file included from [01m[K/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/include/asitlorbotsix_autonomy/navigation_behaviors.h:10[m[K,
+[1.346s]                  from [01m[K/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/src/navigation_behaviors.cpp:1[m[K:
+[1.346s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.347s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[1.347s]       |  [01;35m[K^~~~~~~[m[K
+[1.423s] In file included from [01m[K/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/include/asitlorbotsix_autonomy/navigation_behaviors.h:10[m[K,
+[1.424s]                  from [01m[K/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/include/asitlorbotsix_autonomy/autonomy_node.h:6[m[K,
+[1.425s]                  from [01m[K/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/src/autonomy_node.cpp:1[m[K:
+[1.426s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.427s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[1.428s]       |  [01;35m[K^~~~~~~[m[K
+[4.933s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.933s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.933s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.933s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.933s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.934s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.934s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.934s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.934s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.934s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.934s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.935s]                  from [01m[K/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/include/asitlorbotsix_autonomy/navigation_behaviors.h:4[m[K,
+[4.935s]                  from [01m[K/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/src/navigation_behaviors.cpp:1[m[K:
+[4.935s] [01m[K/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/src/navigation_behaviors.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus GoToPose::onRunning()[m[K’:
+[4.935s] [01m[K/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/src/navigation_behaviors.cpp:55:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[4.935s]    55 |     RCLCPP_INFO(node_ptr_->get_logger(), [01;35m[K"[%s] Goal reached\n"[m[K, this->name());
+[4.935s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.935s] [01m[K/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy/src/navigation_behaviors.cpp:55:45:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[4.936s]    55 |     RCLCPP_INFO(node_ptr_->get_logger(), "[[01;36m[K%s[m[K] Goal reached\n", this->name());
+[4.936s]       |                                            [01;36m[K~^[m[K
+[4.936s]       |                                             [01;36m[K|[m[K
+[4.936s]       |                                             [01;36m[Kchar*[m[K
+[7.317s] [100%] [32m[1mLinking CXX executable autonomy_node[0m
+[7.706s] [100%] Built target autonomy_node
+[7.723s] Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy -- -j8 -l8
+[7.775s] Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --install /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy
+[7.784s] -- Install configuration: ""
+[7.785s] -- Execute custom install script
+[7.785s] -- Symlinking: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/bt_xml/tree.xml
+[7.797s] -- Symlinking: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/launch/autonomy.launch.py
+[7.810s] -- Symlinking: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/lib/asitlorbotsix_autonomy/autonomy_node
+[7.822s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/ament_index/resource_index/package_run_dependencies/asitlorbotsix_autonomy
+[7.822s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/ament_index/resource_index/parent_prefix_path/asitlorbotsix_autonomy
+[7.823s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/environment/ament_prefix_path.sh
+[7.823s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/environment/ament_prefix_path.dsv
+[7.823s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/environment/path.sh
+[7.823s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/environment/path.dsv
+[7.823s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/local_setup.bash
+[7.824s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/local_setup.sh
+[7.824s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/local_setup.zsh
+[7.824s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/local_setup.dsv
+[7.824s] -- Symlinking: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/package.dsv
+[7.836s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/ament_index/resource_index/packages/asitlorbotsix_autonomy
+[7.837s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/cmake/asitlorbotsix_autonomyConfig.cmake
+[7.837s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/cmake/asitlorbotsix_autonomyConfig-version.cmake
+[7.837s] -- Up-to-date symlink: /home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/package.xml
+[7.840s] Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --install /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy

@@ -49,7 +49,6 @@ install(PROGRAMS
   ${PROJECT_NAME}/rmse.py
   ${PROJECT_NAME}/set_init_amcl_pose.py
 
-  
   # ${PROJECT_NAME}/bayesian_optimization.py
   DESTINATION lib/${PROJECT_NAME}
 )

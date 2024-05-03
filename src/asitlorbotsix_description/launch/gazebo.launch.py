@@ -21,8 +21,8 @@ def generate_launch_description():
                                         ),
                                       description="Absolute path to robot urdf file"
     )
-    # x_pose = LaunchConfiguration('x_pose', default='-2.0')
-    # y_pose = LaunchConfiguration('y_pose', default='-0.5')
+    x_pose = LaunchConfiguration('x_pose', default='-2.0')
+    y_pose = LaunchConfiguration('y_pose', default='-0.5')
     model_path = os.path.join(asitlorbotsix_description, "models")
     model_path += pathsep + os.path.join(asitlorbotsix_description_prefix, "share")
 
@@ -51,8 +51,8 @@ def generate_launch_description():
     spawn_robot = Node(package="gazebo_ros", executable="spawn_entity.py",
                         arguments=["-entity", "asitlorbotsix",
                                    "-topic", "robot_description",
-                                #    "-x", x_pose,
-                                #     "-y", y_pose
+                                   "-x", x_pose,
+                                    "-y", y_pose
                                   ],
                         output="screen",
     )

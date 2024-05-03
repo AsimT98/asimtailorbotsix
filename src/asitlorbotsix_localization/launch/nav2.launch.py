@@ -32,7 +32,6 @@ def generate_launch_description():
 
   use_sim_time = LaunchConfiguration('use_sim_time', default='True')
   autostart = LaunchConfiguration('autostart', default='True')
-  
 
   nav2_launch_cmd = IncludeLaunchDescription(
       PythonLaunchDescriptionSource(

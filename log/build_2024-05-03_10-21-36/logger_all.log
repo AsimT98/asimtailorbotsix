@@ -1,0 +1,539 @@
+[0.098s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.098s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x731f99f3d8d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x731f9a0af190>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x731f9a0af190>>)
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.283s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/asimkumar/asitlorbotsix_ws'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbot_six) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbot_six) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbot_six) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbot_six) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbot_six) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbot_six) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbot_six) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbot_six) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbot_six) by extension 'ros'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package 'src/asitlorbot_six' with type 'ros.ament_python' and name 'asitlorbot_six'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_autonomy) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_autonomy) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_autonomy) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_autonomy) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_autonomy) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_autonomy) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_autonomy) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_autonomy) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_autonomy) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/asitlorbotsix_autonomy' with type 'ros.ament_cmake' and name 'asitlorbotsix_autonomy'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_cpp_examples) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_cpp_examples) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_cpp_examples) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_cpp_examples) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_cpp_examples) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_cpp_examples) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_cpp_examples) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_cpp_examples) by extension 'ros'
+[0.301s] DEBUG:colcon.colcon_core.package_identification:Package 'src/asitlorbotsix_cpp_examples' with type 'ros.ament_cmake' and name 'asitlorbotsix_cpp_examples'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_description) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_description) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_description) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_description) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_description) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_description) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_description) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_description) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_description) by extension 'ros'
+[0.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/asitlorbotsix_description' with type 'ros.ament_cmake' and name 'asitlorbotsix_description'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_firmware) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_firmware) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_firmware) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_firmware) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_firmware) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_firmware) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_firmware) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_firmware) by extension 'ros'
+[0.303s] DEBUG:colcon.colcon_core.package_identification:Package 'src/asitlorbotsix_firmware' with type 'ros.ament_cmake' and name 'asitlorbotsix_firmware'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_localization) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_localization) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_localization) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_localization) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_localization) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_localization) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_localization) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlorbotsix_localization) by extension 'ros'
+[0.304s] DEBUG:colcon.colcon_core.package_identification:Package 'src/asitlorbotsix_localization' with type 'ros.ament_cmake' and name 'asitlorbotsix_localization'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlotbotsix_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlotbotsix_controller) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlotbotsix_controller) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlotbotsix_controller) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlotbotsix_controller) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlotbotsix_controller) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlotbotsix_controller) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlotbotsix_controller) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/asitlotbotsix_controller) by extension 'ros'
+[0.317s] DEBUG:colcon.colcon_core.package_identification:Package 'src/asitlotbotsix_controller' with type 'ros.ament_cmake' and name 'asitlotbotsix_controller'
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.348s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/asimkumar/asitlorbotsix_ws/install
+[0.349s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 20 installed packages in /home/asimkumar/asitlor_ws/install
+[0.350s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/asimkumar/turtlebot3_1/install
+[0.351s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 392 installed packages in /opt/ros/humble
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'asitlorbot_six' build argument 'cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'asitlorbot_six' build argument 'cmake_target' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'asitlorbot_six' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'asitlorbot_six' build argument 'cmake_clean_cache' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'asitlorbot_six' build argument 'cmake_clean_first' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'asitlorbot_six' build argument 'cmake_force_configure' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'asitlorbot_six' build argument 'ament_cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'asitlorbot_six' build argument 'catkin_cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'asitlorbot_six' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.416s] DEBUG:colcon.colcon_core.verb:Building package 'asitlorbot_six' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six', 'merge_install': False, 'path': '/home/asimkumar/asitlorbotsix_ws/src/asitlorbot_six', 'symlink_install': True, 'test_result_base': None}
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_autonomy' build argument 'cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_autonomy' build argument 'cmake_target' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_autonomy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_autonomy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_autonomy' build argument 'cmake_clean_first' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_autonomy' build argument 'cmake_force_configure' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_autonomy' build argument 'ament_cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_autonomy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_autonomy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.417s] DEBUG:colcon.colcon_core.verb:Building package 'asitlorbotsix_autonomy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy', 'merge_install': False, 'path': '/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy', 'symlink_install': True, 'test_result_base': None}
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_cpp_examples' build argument 'cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_cpp_examples' build argument 'cmake_target' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_cpp_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_cpp_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_cpp_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_cpp_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_cpp_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_cpp_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_cpp_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.418s] DEBUG:colcon.colcon_core.verb:Building package 'asitlorbotsix_cpp_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_cpp_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples', 'merge_install': False, 'path': '/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_cpp_examples', 'symlink_install': True, 'test_result_base': None}
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_description' build argument 'cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_description' build argument 'cmake_target' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.419s] DEBUG:colcon.colcon_core.verb:Building package 'asitlorbotsix_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description', 'merge_install': False, 'path': '/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_description', 'symlink_install': True, 'test_result_base': None}
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_firmware' build argument 'cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_firmware' build argument 'cmake_target' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_firmware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_firmware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_firmware' build argument 'cmake_clean_first' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_firmware' build argument 'cmake_force_configure' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_firmware' build argument 'ament_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_firmware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_firmware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.420s] DEBUG:colcon.colcon_core.verb:Building package 'asitlorbotsix_firmware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware', 'merge_install': False, 'path': '/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_firmware', 'symlink_install': True, 'test_result_base': None}
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_localization' build argument 'cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_localization' build argument 'cmake_target' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'asitlorbotsix_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.420s] DEBUG:colcon.colcon_core.verb:Building package 'asitlorbotsix_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization', 'merge_install': False, 'path': '/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_localization', 'symlink_install': True, 'test_result_base': None}
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'asitlotbotsix_controller' build argument 'cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'asitlotbotsix_controller' build argument 'cmake_target' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'asitlotbotsix_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'asitlotbotsix_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'asitlotbotsix_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'asitlotbotsix_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'asitlotbotsix_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'asitlotbotsix_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'asitlotbotsix_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.421s] DEBUG:colcon.colcon_core.verb:Building package 'asitlotbotsix_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asimkumar/asitlorbotsix_ws/build/asitlotbotsix_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller', 'merge_install': False, 'path': '/home/asimkumar/asitlorbotsix_ws/src/asitlotbotsix_controller', 'symlink_install': True, 'test_result_base': None}
+[0.421s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.422s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.422s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/asimkumar/asitlorbotsix_ws/src/asitlorbot_six' with build type 'ament_python'
+[0.423s] Level 1:colcon.colcon_core.shell:create_environment_hook('asitlorbot_six', 'ament_prefix_path')
+[0.426s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/share/asitlorbot_six/hook/ament_prefix_path.ps1'
+[0.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/share/asitlorbot_six/hook/ament_prefix_path.dsv'
+[0.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/share/asitlorbot_six/hook/ament_prefix_path.sh'
+[0.428s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.428s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.434s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy' with build type 'ament_cmake'
+[0.434s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_autonomy'
+[0.434s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.434s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.440s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_cpp_examples' with build type 'ament_cmake'
+[0.440s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_cpp_examples'
+[0.440s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.446s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_description' with build type 'ament_cmake'
+[0.446s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_description'
+[0.446s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.446s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.454s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_firmware' with build type 'ament_cmake'
+[0.455s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_firmware'
+[0.455s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.455s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.461s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_localization' with build type 'ament_cmake'
+[0.461s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asimkumar/asitlorbotsix_ws/src/asitlorbotsix_localization'
+[0.461s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.462s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.468s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asimkumar/asitlorbotsix_ws/src/asitlotbotsix_controller' with build type 'ament_cmake'
+[0.468s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asimkumar/asitlorbotsix_ws/src/asitlotbotsix_controller'
+[0.468s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.468s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.758s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/asimkumar/asitlorbotsix_ws/src/asitlorbot_six'
+[0.759s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.759s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy -- -j8 -l8
+[0.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_cpp_examples -- -j8 -l8
+[0.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_description -- -j8 -l8
+[0.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware -- -j8 -l8
+[0.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_localization -- -j8 -l8
+[0.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlotbotsix_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlotbotsix_controller -- -j8 -l8
+[0.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_description -- -j8 -l8
+[0.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --install /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_description
+[0.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_cpp_examples -- -j8 -l8
+[0.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy -- -j8 -l8
+[1.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asitlorbotsix_description)
+[1.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --install /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_description
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description' for CMake module files
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description' for CMake config files
+[1.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('asitlorbotsix_description', 'cmake_prefix_path')
+[1.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/hook/cmake_prefix_path.ps1'
+[1.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/hook/cmake_prefix_path.dsv'
+[1.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/hook/cmake_prefix_path.sh'
+[1.013s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/bin'
+[1.013s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/lib/pkgconfig/asitlorbotsix_description.pc'
+[1.013s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/lib/python3.10/site-packages'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/bin'
+[1.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/package.ps1'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/package.dsv'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/package.sh'
+[1.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/package.bash'
+[1.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/package.zsh'
+[1.023s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/colcon-core/packages/asitlorbotsix_description)
+[1.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --install /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy
+[1.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --install /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_cpp_examples
+[1.080s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asitlorbotsix_description)
+[1.080s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description' for CMake module files
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description' for CMake config files
+[1.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('asitlorbotsix_description', 'cmake_prefix_path')
+[1.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/hook/cmake_prefix_path.ps1'
+[1.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/hook/cmake_prefix_path.dsv'
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/hook/cmake_prefix_path.sh'
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/bin'
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/lib/pkgconfig/asitlorbotsix_description.pc'
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/lib/python3.10/site-packages'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/bin'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/package.ps1'
+[1.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/package.dsv'
+[1.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/package.sh'
+[1.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/package.bash'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/asitlorbotsix_description/package.zsh'
+[1.091s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_description/share/colcon-core/packages/asitlorbotsix_description)
+[1.099s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asitlorbotsix_autonomy)
+[1.100s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy' for CMake module files
+[1.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --install /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_autonomy
+[1.101s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy' for CMake config files
+[1.102s] Level 1:colcon.colcon_core.shell:create_environment_hook('asitlorbotsix_autonomy', 'cmake_prefix_path')
+[1.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/hook/cmake_prefix_path.ps1'
+[1.103s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/hook/cmake_prefix_path.dsv'
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/hook/cmake_prefix_path.sh'
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/lib'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/bin'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/lib/pkgconfig/asitlorbotsix_autonomy.pc'
+[1.108s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/lib/python3.10/site-packages'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/bin'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/package.ps1'
+[1.110s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/package.dsv'
+[1.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/package.sh'
+[1.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/package.bash'
+[1.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/package.zsh'
+[1.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/colcon-core/packages/asitlorbotsix_autonomy)
+[1.114s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asitlorbotsix_cpp_examples)
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples' for CMake module files
+[1.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --install /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_cpp_examples
+[1.116s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples' for CMake config files
+[1.117s] Level 1:colcon.colcon_core.shell:create_environment_hook('asitlorbotsix_cpp_examples', 'cmake_prefix_path')
+[1.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/hook/cmake_prefix_path.ps1'
+[1.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/hook/cmake_prefix_path.dsv'
+[1.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/hook/cmake_prefix_path.sh'
+[1.120s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/lib'
+[1.120s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/bin'
+[1.120s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/lib/pkgconfig/asitlorbotsix_cpp_examples.pc'
+[1.121s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/lib/python3.10/site-packages'
+[1.121s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/bin'
+[1.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/package.ps1'
+[1.123s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/package.dsv'
+[1.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/package.sh'
+[1.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/package.bash'
+[1.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/package.zsh'
+[1.127s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/colcon-core/packages/asitlorbotsix_cpp_examples)
+[1.165s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asitlorbotsix_autonomy)
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy' for CMake module files
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy' for CMake config files
+[1.168s] Level 1:colcon.colcon_core.shell:create_environment_hook('asitlorbotsix_autonomy', 'cmake_prefix_path')
+[1.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/hook/cmake_prefix_path.ps1'
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/hook/cmake_prefix_path.dsv'
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/hook/cmake_prefix_path.sh'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/lib'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/bin'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/lib/pkgconfig/asitlorbotsix_autonomy.pc'
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/lib/python3.10/site-packages'
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/bin'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/package.ps1'
+[1.172s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/package.dsv'
+[1.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/package.sh'
+[1.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/package.bash'
+[1.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/asitlorbotsix_autonomy/package.zsh'
+[1.175s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_autonomy/share/colcon-core/packages/asitlorbotsix_autonomy)
+[1.177s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asitlorbotsix_cpp_examples)
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples' for CMake module files
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples' for CMake config files
+[1.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('asitlorbotsix_cpp_examples', 'cmake_prefix_path')
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/hook/cmake_prefix_path.ps1'
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/hook/cmake_prefix_path.dsv'
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/hook/cmake_prefix_path.sh'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/lib'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/bin'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/lib/pkgconfig/asitlorbotsix_cpp_examples.pc'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/lib/python3.10/site-packages'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/bin'
+[1.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/package.ps1'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/package.dsv'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/package.sh'
+[1.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/package.bash'
+[1.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/asitlorbotsix_cpp_examples/package.zsh'
+[1.188s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_cpp_examples/share/colcon-core/packages/asitlorbotsix_cpp_examples)
+[1.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware -- -j8 -l8
+[1.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlotbotsix_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlotbotsix_controller -- -j8 -l8
+[1.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --install /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware
+[1.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlotbotsix_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --install /home/asimkumar/asitlorbotsix_ws/build/asitlotbotsix_controller
+[1.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six': PYTHONPATH=/home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six/prefix_override:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six/build --no-deps symlink_data
+[1.530s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asitlorbotsix_firmware)
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware' for CMake module files
+[1.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --install /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_firmware
+[1.531s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware' for CMake config files
+[1.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('asitlorbotsix_firmware', 'cmake_prefix_path')
+[1.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/cmake_prefix_path.ps1'
+[1.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/cmake_prefix_path.dsv'
+[1.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/cmake_prefix_path.sh'
+[1.534s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/lib'
+[1.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('asitlorbotsix_firmware', 'ld_library_path_lib')
+[1.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/ld_library_path_lib.ps1'
+[1.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/ld_library_path_lib.dsv'
+[1.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/ld_library_path_lib.sh'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/bin'
+[1.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('asitlorbotsix_firmware', 'path')
+[1.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/path.ps1'
+[1.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/path.dsv'
+[1.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/path.sh'
+[1.537s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/lib/pkgconfig/asitlorbotsix_firmware.pc'
+[1.537s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/lib/python3.10/site-packages'
+[1.537s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/bin'
+[1.537s] Level 1:colcon.colcon_core.shell:create_environment_hook('asitlorbotsix_firmware', 'pythonscriptspath')
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/pythonscriptspath.ps1'
+[1.538s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/pythonscriptspath.dsv'
+[1.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/pythonscriptspath.sh'
+[1.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/package.ps1'
+[1.540s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/package.dsv'
+[1.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/package.sh'
+[1.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/package.bash'
+[1.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/package.zsh'
+[1.541s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/colcon-core/packages/asitlorbotsix_firmware)
+[1.542s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asitlotbotsix_controller)
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller' for CMake module files
+[1.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlotbotsix_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --install /home/asimkumar/asitlorbotsix_ws/build/asitlotbotsix_controller
+[1.544s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller' for CMake config files
+[1.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('asitlotbotsix_controller', 'cmake_prefix_path')
+[1.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/hook/cmake_prefix_path.ps1'
+[1.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/hook/cmake_prefix_path.dsv'
+[1.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/hook/cmake_prefix_path.sh'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/lib'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/bin'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/lib/pkgconfig/asitlotbotsix_controller.pc'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/lib/python3.10/site-packages'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/bin'
+[1.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/package.ps1'
+[1.548s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/package.dsv'
+[1.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/package.sh'
+[1.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/package.bash'
+[1.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/package.zsh'
+[1.550s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/colcon-core/packages/asitlotbotsix_controller)
+[1.585s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asitlotbotsix_controller)
+[1.585s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller' for CMake module files
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller' for CMake config files
+[1.586s] Level 1:colcon.colcon_core.shell:create_environment_hook('asitlotbotsix_controller', 'cmake_prefix_path')
+[1.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/hook/cmake_prefix_path.ps1'
+[1.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/hook/cmake_prefix_path.dsv'
+[1.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/hook/cmake_prefix_path.sh'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/lib'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/bin'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/lib/pkgconfig/asitlotbotsix_controller.pc'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/lib/python3.10/site-packages'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/bin'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/package.ps1'
+[1.591s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/package.dsv'
+[1.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/package.sh'
+[1.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/package.bash'
+[1.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/asitlotbotsix_controller/package.zsh'
+[1.593s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asimkumar/asitlorbotsix_ws/install/asitlotbotsix_controller/share/colcon-core/packages/asitlotbotsix_controller)
+[1.595s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asitlorbotsix_firmware)
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware' for CMake module files
+[1.596s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware' for CMake config files
+[1.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('asitlorbotsix_firmware', 'cmake_prefix_path')
+[1.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/cmake_prefix_path.ps1'
+[1.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/cmake_prefix_path.dsv'
+[1.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/cmake_prefix_path.sh'
+[1.599s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/lib'
+[1.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('asitlorbotsix_firmware', 'ld_library_path_lib')
+[1.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/ld_library_path_lib.ps1'
+[1.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/ld_library_path_lib.dsv'
+[1.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/ld_library_path_lib.sh'
+[1.601s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/bin'
+[1.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('asitlorbotsix_firmware', 'path')
+[1.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/path.ps1'
+[1.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/path.dsv'
+[1.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/path.sh'
+[1.603s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/lib/pkgconfig/asitlorbotsix_firmware.pc'
+[1.603s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/lib/python3.10/site-packages'
+[1.603s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/bin'
+[1.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('asitlorbotsix_firmware', 'pythonscriptspath')
+[1.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/pythonscriptspath.ps1'
+[1.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/pythonscriptspath.dsv'
+[1.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/hook/pythonscriptspath.sh'
+[1.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/package.ps1'
+[1.607s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/package.dsv'
+[1.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/package.sh'
+[1.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/package.bash'
+[1.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/asitlorbotsix_firmware/package.zsh'
+[1.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_firmware/share/colcon-core/packages/asitlorbotsix_firmware)
+[2.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('asitlorbot_six', 'pythonpath_develop')
+[2.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six/share/asitlorbot_six/hook/pythonpath_develop.ps1'
+[2.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six' returned '0': PYTHONPATH=/home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six/prefix_override:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six/build --no-deps symlink_data
+[2.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six/share/asitlorbot_six/hook/pythonpath_develop.dsv'
+[2.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/build/asitlorbot_six/share/asitlorbot_six/hook/pythonpath_develop.sh'
+[2.099s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six' for CMake module files
+[2.100s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six' for CMake config files
+[2.100s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/lib'
+[2.100s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/bin'
+[2.100s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/lib/pkgconfig/asitlorbot_six.pc'
+[2.100s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/lib/python3.10/site-packages'
+[2.100s] Level 1:colcon.colcon_core.shell:create_environment_hook('asitlorbot_six', 'pythonpath')
+[2.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/share/asitlorbot_six/hook/pythonpath.ps1'
+[2.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/share/asitlorbot_six/hook/pythonpath.dsv'
+[2.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/share/asitlorbot_six/hook/pythonpath.sh'
+[2.102s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/bin'
+[2.102s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asitlorbot_six)
+[2.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/share/asitlorbot_six/package.ps1'
+[2.103s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/share/asitlorbot_six/package.dsv'
+[2.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/share/asitlorbot_six/package.sh'
+[2.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/share/asitlorbot_six/package.bash'
+[2.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/share/asitlorbot_six/package.zsh'
+[2.104s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six/share/colcon-core/packages/asitlorbot_six)
+[2.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --build /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_localization -- -j8 -l8
+[2.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --install /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_localization
+[2.555s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asitlorbotsix_localization)
+[2.556s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization' for CMake module files
+[2.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asimkumar/asitlorbotsix_ws/install/asitlorbot_six:/opt/ros/humble /usr/bin/cmake --install /home/asimkumar/asitlorbotsix_ws/build/asitlorbotsix_localization
+[2.557s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization' for CMake config files
+[2.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('asitlorbotsix_localization', 'cmake_prefix_path')
+[2.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/hook/cmake_prefix_path.ps1'
+[2.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/hook/cmake_prefix_path.dsv'
+[2.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/hook/cmake_prefix_path.sh'
+[2.559s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/lib'
+[2.559s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/bin'
+[2.560s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/lib/pkgconfig/asitlorbotsix_localization.pc'
+[2.560s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/lib/python3.10/site-packages'
+[2.560s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/bin'
+[2.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/package.ps1'
+[2.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/package.dsv'
+[2.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/package.sh'
+[2.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/package.bash'
+[2.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/package.zsh'
+[2.562s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/colcon-core/packages/asitlorbotsix_localization)
+[2.599s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asitlorbotsix_localization)
+[2.600s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization' for CMake module files
+[2.601s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization' for CMake config files
+[2.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('asitlorbotsix_localization', 'cmake_prefix_path')
+[2.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/hook/cmake_prefix_path.ps1'
+[2.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/hook/cmake_prefix_path.dsv'
+[2.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/hook/cmake_prefix_path.sh'
+[2.602s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/lib'
+[2.603s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/bin'
+[2.603s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/lib/pkgconfig/asitlorbotsix_localization.pc'
+[2.603s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/lib/python3.10/site-packages'
+[2.603s] Level 1:colcon.colcon_core.environment:checking '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/bin'
+[2.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/package.ps1'
+[2.604s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/package.dsv'
+[2.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/package.sh'
+[2.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/package.bash'
+[2.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/asitlorbotsix_localization/package.zsh'
+[2.605s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asimkumar/asitlorbotsix_ws/install/asitlorbotsix_localization/share/colcon-core/packages/asitlorbotsix_localization)
+[2.605s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.606s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.606s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.606s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.612s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.612s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.612s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.624s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.624s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asimkumar/asitlorbotsix_ws/install/local_setup.ps1'
+[2.628s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/asimkumar/asitlorbotsix_ws/install/_local_setup_util_ps1.py'
+[2.629s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asimkumar/asitlorbotsix_ws/install/setup.ps1'
+[2.632s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asimkumar/asitlorbotsix_ws/install/local_setup.sh'
+[2.632s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/asimkumar/asitlorbotsix_ws/install/_local_setup_util_sh.py'
+[2.633s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asimkumar/asitlorbotsix_ws/install/setup.sh'
+[2.635s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asimkumar/asitlorbotsix_ws/install/local_setup.bash'
+[2.636s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asimkumar/asitlorbotsix_ws/install/setup.bash'
+[2.639s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asimkumar/asitlorbotsix_ws/install/local_setup.zsh'
+[2.641s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asimkumar/asitlorbotsix_ws/install/setup.zsh'
